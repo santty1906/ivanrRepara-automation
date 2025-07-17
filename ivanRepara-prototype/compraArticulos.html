@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IvanRepara - Servicios Técnicos y Accesorios</title>
+  <link rel="stylesheet" href="ivanrepara.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topbar">
+      <div class="topbar-left">
+        <a href="ivanrepara.html" class="logo-bar">
+          <span class="logo-icon-bar">
+            <svg width="36" height="36" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="22" stroke="#1976d2" stroke-width="3" fill="#fff"/>
+              <rect x="21" y="10" width="6" height="20" rx="2" fill="#1976d2"S/>
+              <rect x="23" y="30" width="2" height="8" rx="1" fill="#1976d2"/>
+              <circle cx="24" cy="24" r="7" stroke="#1976d2" stroke-width="2.5" fill="#e3f2fd"/>
+            </svg>
+          </span>
+          <span class="logo-text-bar"></span>
+        </a>
+      </div>
+      <div class="topbar-right">
+        <nav class="main-nav">
+          <a href="ivanrepara.html">📌 Inicio</a>
+          <a href="#nosotros">👥 Nosotros</a>
+          <a href="#servicios">🛠️ Servicios</a>
+          <a href="contacto.html">📞 Contacto</a>
+          <a href="diagnostico.html">🔍 Diagnóstico</a>
+          <a href="garantia.html">🛡️ Garantía</a>
+          <a href="ordenesReparacion.html">📋 Órdenes</a>
+          <a href="contabilidad.html">📊 Contabilidad</a>
+          <a href="compraArticulos.html">🛒 Accesorios</a>
+      
+          
+          <button class="search-btn" aria-label="Buscar">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="7" stroke="#1976d2" stroke-width="2"/>
+              <line x1="16.1213" y1="16.7071" x2="20" y2="20.5858" stroke="#1976d2" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+    <section id="compras" class="compras-section">
+      <h2>Compra de Accesorios</h2>
+      <div class="compras-lista">
+        <div class="compra-item" data-stock="10">
+          <div class="compra-imagen">
+            <img src="https://mobomx.vtexassets.com/arquivos/ids/210997-800-auto?v=638640270641200000&width=800&height=auto&aspect=true" alt="Cargador USB-C">
+          </div>
+          <div class="compra-info">
+            <div class="compra-nombre">Cargador USB-C</div>
+            <div class="compra-precio">$12.00</div>
+            <div class="compra-stock">Disponible</div>
+            <input type="number" class="compra-cantidad" min="1" max="10" value="1">
+            <button class="btn-cta btn-carrito">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="compra-item" data-stock="0">
+          <div class="compra-imagen">
+            <img src="https://www.photura.com/cdn/shop/files/SDCZ410064G_SanDisk_Web_001_500x.jpg?v=1729355425" alt="Memoria USB 64GB">
+          </div>
+          <div class="compra-info">
+            <div class="compra-nombre">Memoria USB 64GB</div>
+            <div class="compra-precio">$8.50</div>
+            <div class="compra-stock agotado">Agotado</div>
+            <input type="number" class="compra-cantidad" min="1" max="0" value="1" disabled>
+            <button class="btn-cta btn-carrito" disabled>Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="compra-item" data-stock="5">
+          <div class="compra-imagen">
+            <img src="https://media.doitcenter.com.pa/media/catalog/product/5/3/5303474241_k130avgiiy6krexi.jpg?quality=85&fit=bounds&height=&width=1080&auto=webp&format=pjpg" alt="Mouse inalámbrico">
+          </div>
+          <div class="compra-info">
+            <div class="compra-nombre">Mouse inalámbrico</div>
+            <div class="compra-precio">$9.00</div>
+            <div class="compra-stock">Disponible</div>
+            <input type="number" class="compra-cantidad" min="1" max="5" value="1">
+            <button class="btn-cta btn-carrito">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="compra-item" data-stock="2">
+          <div class="compra-imagen">
+            <img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/input-devices/dell/keyboards/kb740/global-spi/ng/keyboard-kb740-gray-campaign-hero-504x350-ng.psd?hei=402&qtl=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto" alt="Teclado compacto">
+          </div>
+          <div class="compra-info">
+            <div class="compra-nombre">Teclado compacto</div>
+            <div class="compra-precio">$15.00</div>
+            <div class="compra-stock">Disponible</div>
+            <input type="number" class="compra-cantidad" min="1" max="2" value="1">
+            <button class="btn-cta btn-carrito">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="compra-item" data-stock="7">
+          <div class="compra-imagen">
+            <img src="https://warzonepanama.com/wp-content/uploads/2024/11/HDMI21B.jpg" alt="Cable HDMI 2m">
+          </div>
+          <div class="compra-info">
+            <div class="compra-nombre">Cable HDMI 2m</div>
+            <div class="compra-precio">$5.00</div>
+            <div class="compra-stock">Disponible</div>
+            <input type="number" class="compra-cantidad" min="1" max="7" value="1">
+            <button class="btn-cta btn-carrito">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="compra-item" data-stock="0">
+          <div class="compra-imagen">
+            <img src="https://m.media-amazon.com/images/I/61XDl5fHt5L._AC_SX679_.jpg" alt="Alfombrilla Gamer">
+          </div>
+          <div class="compra-info">
+            <div class="compra-nombre">Alfombrilla Gamer</div>
+            <div class="compra-precio">$6.50</div>
+            <div class="compra-stock agotado">Agotado</div>
+            <input type="number" class="compra-cantidad" min="1" max="0" value="1" disabled>
+            <button class="btn-cta btn-carrito" disabled>Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="compra-item" data-stock="3">
+          <div class="compra-imagen">
+            <img src="https://www.steren.com.pa/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/2230830d1/audifonos-bluetooth-3-5-mm-para-gamers.jpg" alt="Audífonos con micrófono">
+          </div>
+          <div class="compra-info">
+            <div class="compra-nombre">Audífonos con micrófono</div>
+            <div class="compra-precio">$11.00</div>
+            <div class="compra-stock">Disponible</div>
+            <input type="number" class="compra-cantidad" min="1" max="3" value="1">
+            <button class="btn-cta btn-carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </div>
+      <div class="carrito-resumen" id="carrito-resumen" style="display:none;">
+        <h3>Carrito de compras</h3>
+        <ul id="carrito-lista"></ul>
+        <div class="carrito-total">Total: <span id="carrito-total">$0.00</span></div>
+      </div>
+    </section>
+    <footer>
+    &copy; 2025 IvanRepara. Todos los derechos reservados.
+    </footer> 
+  <script src="ivanrepara.js"></script>
+</body>
+</html>

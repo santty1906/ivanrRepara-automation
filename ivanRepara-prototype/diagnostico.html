@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IvanRepara - Servicios Técnicos y Accesorios</title>
+  <link rel="stylesheet" href="ivanrepara.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topbar">
+      <div class="topbar-left">
+        <a href="ivanrepara.html" class="logo-bar">
+          <span class="logo-icon-bar">
+            <svg width="36" height="36" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="22" stroke="#1976d2" stroke-width="3" fill="#fff"/>
+              <rect x="21" y="10" width="6" height="20" rx="2" fill="#1976d2"/>
+              <rect x="23" y="30" width="2" height="8" rx="1" fill="#1976d2"/>
+              <circle cx="24" cy="24" r="7" stroke="#1976d2" stroke-width="2.5" fill="#e3f2fd"/>
+            </svg>
+          </span>
+          <span class="logo-text-bar"></span>
+        </a>
+      </div>
+      <div class="topbar-right">
+        <nav class="main-nav">
+          <a href="ivanrepara.html">📌 Inicio</a>
+          <a href="#nosotros">👥 Nosotros</a>
+          <a href="#servicios">🛠️ Servicios</a>
+          <a href="contacto.html">📞 Contacto</a>
+          <a href="diagnostico.html">🔍 Diagnóstico</a>
+          <a href="garantia.html">🛡️ Garantía</a>
+          <a href="ordenesReparacion.html">📋 Órdenes</a>
+          <a href="contabilidad.html">📊 Contabilidad</a>
+          <a href="compraArticulos.html">🛒 Accesorios</a>
+      
+          
+          <button class="search-btn" aria-label="Buscar">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="7" stroke="#1976d2" stroke-width="2"/>
+              <line x1="16.1213" y1="16.7071" x2="20" y2="20.5858" stroke="#1976d2" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+    <section id="diagnostico" class="diagnostico-section">
+      <h2>Diagnóstico / Reparación</h2>
+      <form class="form-diagnostico" id="diagnosticForm">
+        <label for="tipo-equipo">Tipo de equipo</label>
+        <select id="tipo-equipo" name="tipo-equipo" required>
+          <option value="">Seleccione...</option>
+          <option value="laptop">Laptop</option>
+          <option value="pc">PC de escritorio</option>
+          <option value="celular">Celular</option>
+          <option value="otro">Otro</option>
+        </select>
+        <label for="problema">¿Cuál es el problema?</label>
+        <input type="text" id="problema" name="problema" placeholder="Describa el problema" required>
+        <fieldset class="evaluacion-preliminar">
+          <legend>Evaluación preliminar</legend>
+          <label><input type="checkbox" name="visual"> Comprobación visual</label>
+          <label><input type="checkbox" name="encendido"> Prueba de encendido</label>
+          <label><input type="checkbox" name="software"> Revisión de software</label>
+        </fieldset>
+        <button type="submit" class="btn-cta">Guardar Diagnóstico</button>
+      </form>
+    </section>
+    <footer>
+    &copy; 2025 IvanRepara. Todos los derechos reservados.
+    </footer> 
+  <script src="ivanrepara.js"></script>
+</body>
+</html>
