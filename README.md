@@ -90,8 +90,3 @@ The IvanRepara prototype includes several additional pages to simulate a complet
 
 ## Getting Started
 
-To view the website prototype locally:
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/ivanrepara-prototype.git
